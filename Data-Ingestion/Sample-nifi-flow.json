@@ -19,6 +19,36 @@
       "destination" : {
         "comments" : "",
         "groupId" : "flow-contents-group",
+        "id" : "7c497d03-5ae5-3cb6-ac74-f8f09508dc72",
+        "name" : "Funnel",
+        "type" : "FUNNEL"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "2f81ac14-4676-38be-aed9-27159c4c6e32",
+      "labelIndex" : 0,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "334c8ba7-d012-374a-be8d-0c185ba0124d",
+        "name" : "GenerateFlowFile",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 2
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
         "id" : "e9d551c7-468d-33bb-94b9-692c0f3f345d",
         "name" : "Funnel",
         "type" : "FUNNEL"
@@ -53,10 +83,18 @@
     "funnels" : [ {
       "componentType" : "FUNNEL",
       "groupIdentifier" : "flow-contents-group",
+      "identifier" : "7c497d03-5ae5-3cb6-ac74-f8f09508dc72",
+      "position" : {
+        "x" : 208.0,
+        "y" : -272.0
+      }
+    }, {
+      "componentType" : "FUNNEL",
+      "groupIdentifier" : "flow-contents-group",
       "identifier" : "e9d551c7-468d-33bb-94b9-692c0f3f345d",
       "position" : {
-        "x" : -279.0,
-        "y" : -63.389198303222656
+        "x" : -272.0,
+        "y" : -64.0
       }
     } ],
     "identifier" : "flow-contents-group",
@@ -172,6 +210,6 @@
   "snapshotMetadata" : {
     "author" : "admin",
     "flowIdentifier" : "Sample-nifi-flow",
-    "timestamp" : 1771318561019
+    "timestamp" : 1771318722816
   }
 }
