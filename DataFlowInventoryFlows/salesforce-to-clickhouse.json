@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1771410409154,
+    "description" : "",
+    "identifier" : "salesforce-to-clickhouse",
+    "lastModifiedTimestamp" : 1771410409154,
+    "name" : "salesforce to clickhouse",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
