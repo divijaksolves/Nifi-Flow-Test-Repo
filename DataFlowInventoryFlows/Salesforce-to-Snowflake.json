@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1771828121204,
+    "description" : "",
+    "identifier" : "Salesforce-to-Snowflake",
+    "lastModifiedTimestamp" : 1771828121204,
+    "name" : "Salesforce to Snowflake",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
